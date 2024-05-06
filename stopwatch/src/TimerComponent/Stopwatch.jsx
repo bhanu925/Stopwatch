@@ -31,7 +31,7 @@ const Stopwatch = () => {
     <div className="container">
       <h2>Stopwatch</h2>
       <p>Time: {timeFormat(timer)}</p>
-      <button onClick={startAndStop}>{!inprogress ? "Start" : "stop"}</button>
+      <button onClick={startAndStop}>{!inprogress ? "Start" : "Stop"}</button>
       <button onClick={reset}>Reset</button>
     </div>
   );
